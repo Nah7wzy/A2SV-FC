@@ -1,0 +1,141 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@600&display=swap");
+
+*,
+*::before,
+*::after {
+  @apply select-none;
+  @apply box-border;
+}
+
+#root {
+  @apply absolute inset-0 flex flex-col;
+}
+
+header h1 {
+  font-family: "Raleway", sans-serif;
+}
+
+nav a {
+  @apply flex flex-col cursor-default place-content-center no-underline text-slate-300;
+}
+
+.selected svg {
+  animation: rotate 300ms forwards;
+}
+
+@keyframes rotate {
+  0% {
+    transform: rotateZ(-180deg);
+  }
+  50% {
+    transform: scale(3) translateY(-8px);
+  }
+  100% {
+    transform: rotateZ(360deg) scale(2.5) translateY(-8px);
+  }
+}
+
+th {
+  @apply text-gray-400 font-normal text-sm lg:text-xs text-center;
+}
+
+tbody tr:nth-child(-n + 4) {
+  @apply bg-slate-800 text-purple-100;
+}
+
+td {
+  @apply text-gray-900 text-lg lg:text-sm text-center;
+}
+
+th,
+td {
+  @apply whitespace-nowrap py-4 pl-2 pr-6 lg:pr-2;
+}
+
+tbody tr:nth-child(-n + 4) td:first-child {
+  @apply bg-slate-800;
+}
+
+tbody tr:nth-child(-n + 4) td {
+  @apply text-slate-300;
+}
+
+.conference-switch button {
+  @apply relative z-10 border-none cursor-default text-sm md:cursor-pointer focus-visible:outline-none;
+}
+
+.conference-switch button a {
+  @apply px-4;
+}
+
+.conference-switch:after {
+  @apply content-[''] block bg-slate-300 rounded-md w-24 absolute top-1 bottom-1 my-auto;
+  left: var(--start);
+
+  transition: left 300ms cubic-bezier(0.34, 1.56, 0.64, 1);
+}
+
+summary {
+  list-style: none;
+
+  /* Samsung Internet */
+  display: block;
+  outline: none;
+}
+
+summary::marker, /* Latest Chrome, Edge, Firefox */ 
+summary::-webkit-details-marker /* Safari */ {
+  display: none;
+}
+
+span.w {
+  @apply bg-green-400 text-gray-900;
+}
+
+span.l {
+  @apply bg-red-600 text-gray-50;
+}
+
+span.d {
+  @apply bg-gray-700 text-gray-300;
+}
+
+.custom-scrollbar {
+  --scrollbar-color: #1f293f;
+}
+
+.grid-container > div,
+.custom-scrollbar {
+  /* Firefox support */
+  scrollbar-width: thin;
+  scrollbar-color: var(--scrollbar-color, #2f394f) transparent;
+}
+
+.grid-container > div::-webkit-scrollbar,
+.custom-scrollbar::-webkit-scrollbar {
+  height: 4px;
+  width: 4px;
+}
+
+.grid-container > div::-webkit-scrollbar-thumb,
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background-color: var(--scrollbar-color, #2f394f);
+}
+
+.grid-container {
+  display: grid;
+  grid-template-columns: 400px 1fr;
+}
+
+.grid-container > div {
+  height: 100%;
+  overflow: auto;
+}
+
+#tables-and-stats {
+  height: calc(100vh - 50px);
+}
