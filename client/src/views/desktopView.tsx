@@ -2,7 +2,7 @@ import Header from "../components/header";
 import Matches from "../components/matches";
 import Stats from "../components/stats";
 import LeagueTable from "../components/table/leagueTable";
-import PlayOffs from "../components/table/playoffs";
+// import PlayOffs from "../components/table/playoffs";
 
 export default function DesktopView() {
   return (
