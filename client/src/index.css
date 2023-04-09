@@ -43,7 +43,7 @@ th {
   @apply text-gray-400 font-normal text-sm lg:text-xs text-center;
 }
 
-tbody tr:nth-child(-n + 4) {
+tbody tr:nth-child(-n + 2) {
   @apply bg-slate-800 text-purple-100;
 }
 
@@ -56,11 +56,11 @@ td {
   @apply whitespace-nowrap py-4 pl-2 pr-6 lg:pr-2;
 }
 
-tbody tr:nth-child(-n + 4) td:first-child {
+tbody tr:nth-child(-n + 2) td:first-child {
   @apply bg-slate-800;
 }
 
-tbody tr:nth-child(-n + 4) td {
+tbody tr:nth-child(-n + 2) td {
   @apply text-slate-300;
 }
 

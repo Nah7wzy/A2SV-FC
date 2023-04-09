@@ -13,7 +13,7 @@ type CentralStoreState = {
 };
 
 const initialState: CentralStoreState = {
-  conference: 3,
+  conference: 1,
   teams,
   players,
   matches,

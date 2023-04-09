@@ -15,9 +15,9 @@ export default function DesktopView() {
         <div className="bg-slate-900 flex flex-col border-x-[1px] border-x-slate-600 overflow-auto scroll-smooth">
           <div
             id="playoffs"
-            className="basis-full shrink-0 flex items-center border-b-[1px] border-b-slate-600"
+            // className="basis-full shrink-0 flex items-center border-b-[1px] border-b-slate-600"
           >
-            <PlayOffs />
+            {/* <PlayOffs /> */}
           </div>
           <div
             id="tables-and-stats"
