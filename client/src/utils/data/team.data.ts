@@ -180,7 +180,7 @@ export const teams: Team[] = [
   {
     conference: 2,
     inPlayoffs: false,
-    teamID: 204,
+    teamID: 205,
     teamName: "A2SV Group 46",
     teamCode: "G46",
     previousRank: 0,
