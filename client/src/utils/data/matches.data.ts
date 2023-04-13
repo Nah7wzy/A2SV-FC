@@ -29,6 +29,120 @@ export const matches: Match[] = [
   /**
    * Conference 1
    */
+  {
+    state: "sc",
+    conference: 1,
+    matchID: Math.random().toString(36).slice(2),
+    teams: {
+      team1: 101,
+      team2: 102,
+    },
+    schedule: new Date("April 17, 2023 11:00").toString(),
+    score: {
+      team1: 0,
+      team2: 0,
+    },
+    events: {
+      team1: [],
+      team2: [],
+    },
+  },
+
+    {
+    state: "sc",
+    conference: 2,
+    matchID: Math.random().toString(36).slice(2),
+    teams: {
+      team1: 201,
+      team2: 202,
+    },
+    schedule: new Date("April 19, 2023 11:00").toString(),
+    score: {
+      team1: 0,
+      team2: 0,
+    },
+    events: {
+      team1: [],
+      team2: [],
+    },
+  },
+
+    {
+    state: "sc",
+    conference: 1,
+    matchID: Math.random().toString(36).slice(2),
+    teams: {
+      team1: 103,
+      team2: 104,
+    },
+    schedule: new Date("April 21, 2023 11:00").toString(),
+    score: {
+      team1: 0,
+      team2: 0,
+    },
+    events: {
+      team1: [],
+      team2: [],
+    },
+  },
+
+    {
+    state: "sc",
+    conference: 2,
+    matchID: Math.random().toString(36).slice(2),
+    teams: {
+      team1: 203,
+      team2: 204,
+    },
+    schedule: new Date("April 24, 2023 11:00").toString(),
+    score: {
+      team1: 0,
+      team2: 0,
+    },
+    events: {
+      team1: [],
+      team2: [],
+    },
+  },
+
+    {
+    state: "sc",
+    conference: 1,
+    matchID: Math.random().toString(36).slice(2),
+    teams: {
+      team1: 101,
+      team2: 105,
+    },
+    schedule: new Date("April 26, 2023 11:00").toString(),
+    score: {
+      team1: 0,
+      team2: 0,
+    },
+    events: {
+      team1: [],
+      team2: [],
+    },
+  },
+
+    {
+    state: "sc",
+    conference: 2,
+    matchID: Math.random().toString(36).slice(2),
+    teams: {
+      team1: 201,
+      team2: 205,
+    },
+    schedule: new Date("April 28, 2023 11:00").toString(),
+    score: {
+      team1: 0,
+      team2: 0,
+    },
+    events: {
+      team1: [],
+      team2: [],
+    },
+  },
+
   
   // {
   //   state: "ft",
