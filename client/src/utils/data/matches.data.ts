@@ -34,8 +34,8 @@ export const matches: Match[] = [
     conference: 1,
     matchID: Math.random().toString(36).slice(2),
     teams: {
-      team1: 101,
-      team2: 102,
+      team1: 100,
+      team2: 100,
     },
     schedule: new Date("April 17, 2023 11:00").toString(),
     score: {
@@ -72,8 +72,8 @@ export const matches: Match[] = [
     conference: 1,
     matchID: Math.random().toString(36).slice(2),
     teams: {
-      team1: 103,
-      team2: 104,
+      team1: 100,
+      team2: 100,
     },
     schedule: new Date("April 21, 2023 11:00").toString(),
     score: {
@@ -91,8 +91,8 @@ export const matches: Match[] = [
     conference: 2,
     matchID: Math.random().toString(36).slice(2),
     teams: {
-      team1: 203,
-      team2: 204,
+      team1: 200,
+      team2: 200,
     },
     schedule: new Date("April 24, 2023 11:00").toString(),
     score: {
@@ -110,8 +110,8 @@ export const matches: Match[] = [
     conference: 1,
     matchID: Math.random().toString(36).slice(2),
     teams: {
-      team1: 101,
-      team2: 105,
+      team1: 100,
+      team2: 100,
     },
     schedule: new Date("April 26, 2023 11:00").toString(),
     score: {
