@@ -30,35 +30,16 @@ export const matches: Match[] = [
    * Conference 1
    */
   {
-    state: "sc",
-    conference: 1,
-    matchID: Math.random().toString(36).slice(2),
-    teams: {
-      team1: 100,
-      team2: 100,
-    },
-    schedule: new Date("April 17, 2023 11:00").toString(),
-    score: {
-      team1: 0,
-      team2: 0,
-    },
-    events: {
-      team1: [],
-      team2: [],
-    },
-  },
-
-    {
-    state: "sc",
+    state: "ft",
     conference: 2,
     matchID: Math.random().toString(36).slice(2),
     teams: {
-      team1: 201,
-      team2: 202,
+      team1: 103,
+      team2: 102,
     },
-    schedule: new Date("April 19, 2023 11:00").toString(),
+    schedule: new Date("April 26, 2023 11:00").toString(),
     score: {
-      team1: 0,
+      team1: 3,
       team2: 0,
     },
     events: {
@@ -72,10 +53,10 @@ export const matches: Match[] = [
     conference: 1,
     matchID: Math.random().toString(36).slice(2),
     teams: {
-      team1: 100,
-      team2: 100,
+      team1: 208,
+      team2: 209,
     },
-    schedule: new Date("April 21, 2023 11:00").toString(),
+    schedule: new Date("April 28, 2023 11:00").toString(),
     score: {
       team1: 0,
       team2: 0,
@@ -88,13 +69,32 @@ export const matches: Match[] = [
 
     {
     state: "sc",
-    conference: 2,
+    conference: 1,
+    matchID: Math.random().toString(36).slice(2),
+    teams: {
+      team1: 100,
+      team2: 100,
+    },
+    schedule: new Date("May 2, 2023 11:00").toString(),
+    score: {
+      team1: 0,
+      team2: 0,
+    },
+    events: {
+      team1: [],
+      team2: [],
+    },
+  },
+
+    {
+    state: "sc",
+    conference: 1,
     matchID: Math.random().toString(36).slice(2),
     teams: {
       team1: 200,
       team2: 200,
     },
-    schedule: new Date("April 24, 2023 11:00").toString(),
+    schedule: new Date("May 3, 2023 11:00").toString(),
     score: {
       team1: 0,
       team2: 0,
@@ -105,24 +105,24 @@ export const matches: Match[] = [
     },
   },
 
-    {
-    state: "sc",
-    conference: 1,
-    matchID: Math.random().toString(36).slice(2),
-    teams: {
-      team1: 100,
-      team2: 100,
-    },
-    schedule: new Date("April 26, 2023 11:00").toString(),
-    score: {
-      team1: 0,
-      team2: 0,
-    },
-    events: {
-      team1: [],
-      team2: [],
-    },
-  },
+  //   {
+  //   state: "sc",
+  //   conference: 1,
+  //   matchID: Math.random().toString(36).slice(2),
+  //   teams: {
+  //     team1: 100,
+  //     team2: 100,
+  //   },
+  //   schedule: new Date("April 26, 2023 11:00").toString(),
+  //   score: {
+  //     team1: 0,
+  //     team2: 0,
+  //   },
+  //   events: {
+  //     team1: [],
+  //     team2: [],
+  //   },
+  // },
 
     {
     state: "sc",
@@ -132,7 +132,7 @@ export const matches: Match[] = [
       team1: 201,
       team2: 205,
     },
-    schedule: new Date("April 28, 2023 11:00").toString(),
+    schedule: new Date("May 5, 2023 11:00").toString(),
     score: {
       team1: 0,
       team2: 0,
