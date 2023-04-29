@@ -31,7 +31,7 @@ export const matches: Match[] = [
    */
   {
     state: "ft",
-    conference: 2,
+    conference: 1,
     matchID: Math.random().toString(36).slice(2),
     teams: {
       team1: 103,
@@ -49,8 +49,8 @@ export const matches: Match[] = [
   },
 
     {
-    state: "sc",
-    conference: 1,
+    state: "ft",
+    conference: 2,
     matchID: Math.random().toString(36).slice(2),
     teams: {
       team1: 208,
@@ -58,12 +58,70 @@ export const matches: Match[] = [
     },
     schedule: new Date("April 28, 2023 11:00").toString(),
     score: {
-      team1: 0,
-      team2: 0,
+      team1: 8,
+      team2: 3,
     },
     events: {
-      team1: [],
-      team2: [],
+      team1: [
+        {
+          name: "Mikeyas Alemu",
+          event: "goal",
+          assist: "",
+        },
+        {
+          name: "Mikeyas Alemu",
+          event: "goal",
+          assist: "",
+        },
+        {
+          name: "Yosef Shemeles",
+          event: "goal",
+          assist: "",
+        },
+        {
+          name: "Yosef Shemeles",
+          event: "goal",
+          assist: "",
+        },
+        {
+          name: "Aymen Eliyas",
+          event: "goal",
+          assist: "",
+        },
+        {
+          name: "Asnake Assefa",
+          event: "goal",
+          assist: "",
+        },
+        {
+          name: "Meiraf Jejaw",
+          event: "goal",
+          assist: "",
+        },
+        {
+          name: "Metsehafe Eyasu",
+          event: "goal",
+          assist: "",
+        },        
+        
+      ],
+      team2: [
+        {
+          name: "Bernabas Mulugeta",
+          event: "goal",
+          assist: "",
+        }, 
+        {
+          name: "Bernabas Mulugeta",
+          event: "goal",
+          assist: "",
+        }, 
+        {
+          name: "Surafel Getahun",
+          event: "goal",
+          assist: "",
+        },  
+      ],
     },
   },
 

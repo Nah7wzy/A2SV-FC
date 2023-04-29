@@ -10,7 +10,7 @@ import {
 import { FunctionComponent, SVGProps } from "react";
 
 import { ReactComponent as StrikerIcon } from "../../assets/illustrations/striker.svg";
-import { ReactComponent as MidfielderIcon } from "../../assets/illustrations/midfielder.svg";
+// import { ReactComponent as MidfielderIcon } from "../../assets/illustrations/midfielder.svg";
 import { ReactComponent as GoalKeeperIcon } from "../../assets/illustrations/goalkeeper.svg";
 
 export interface statsCardProps {
@@ -31,12 +31,12 @@ export default function Stats() {
         icon={StrikerIcon}
         sortBy="goals"
       />
-      <PlayerStatsCard
+      {/* <PlayerStatsCard
         statSource={playerData}
         stat="Assists"
         icon={MidfielderIcon}
         sortBy="assists"
-      />
+      /> */}
       <TeamStatsCard
         statSource={teamData}
         stat="Goals Conceded"
